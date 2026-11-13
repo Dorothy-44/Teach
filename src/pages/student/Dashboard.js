@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
-import Badge from "react-bootstrap/Badge";
+
 import { useLocation, useNavigate } from "react-router-dom";
 import { getCurrentUser } from "../../services/auth";
 import { getUnreadCountByType } from "../../services/notifications";
